@@ -1,18 +1,18 @@
-import Image from 'next/image'
+"use client"
 import styles from "./page.module.css"
-import HouseImg from './images/house_w.png'
 import { Inter } from 'next/font/google'
-
+import { CldImage } from 'next-cloudinary';
 
 const inter = Inter({ subsets: ['latin'] })
-
 
 export default function Home() {
   return (
     <main className={`${styles.main} ${inter.className}`}>
 
       <div className={styles.containerOut}>
-        <Image className={styles.houseImg} src={HouseImg} alt="Image of house close to nature" />
+        <CldImage width={720} height={720}
+          className={styles.houseImg}
+          src={"house"} alt="Image of house close to nature" />
         <div className={styles.containerIn}>
           <h1 className={styles.heading1}>
             Spend your weekend in a <span className={styles.emphasize}>beautiful</span> house.
