@@ -1,0 +1,11 @@
+.hamburger {
+  stroke: var(--foreground);
+  height: fit-content;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: var(--foreground);
+  margin: 6px 0;
+}

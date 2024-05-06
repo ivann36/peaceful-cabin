@@ -1,6 +1,6 @@
 :root {
-  --primary: #fffef6;
-  --foreground: #FA7070;
+  --primary: #FDF0D5;
+  --foreground: #DB2A50;
 
   --max-width: 1100px;
   --border-radius: 12px;
@@ -68,6 +68,7 @@
 
 body {
   margin: 0;
+  color: black;
 }
 
 button {

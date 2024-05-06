@@ -10,7 +10,7 @@ export default function Home() {
     <main className={`${styles.main} ${inter.className}`}>
 
       <div className={styles.containerOut}>
-        <CldImage width={720} height={720}
+        <CldImage width='1080' height='929'
           className={styles.houseImg}
           src={"house"} alt="Image of house close to nature" />
         <div className={styles.containerIn}>
